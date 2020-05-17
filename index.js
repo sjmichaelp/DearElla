@@ -41,6 +41,7 @@ scrollableElement.addEventListener('wheel', zoom);
 video.addEventListener('ended', (event) => {
     letter.style.display = "block";
     video.style.display = 'none';
+    audio.loop = true;
     audio.play();
   });
 
